@@ -4,8 +4,26 @@
       "name": "Brawlers",
       "description": "",
       "website": {
-        "link": "https://www.bcbrawlers.com/",
-        "name": "bcbrawlers.com"
+        "link": "https://brawlers.gg/",
+        "name": "brawlers.gg"
+      }
+    }
+  },
+  "musictoken": {
+    "CRED": {
+      "name": "Music Mogul",
+      "description": "",
+      "website": {
+        "link": "https://musicmogul.io/",
+        "name": "musicmogul.io"
+      }
+    },
+    "CNOTE": {
+      "name": "Music Mogul",
+      "description": "",
+      "website": {
+        "link": "https://musicmogul.io/",
+        "name": "musicmogul.io"
       }
     }
   }
