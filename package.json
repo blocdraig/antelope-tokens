@@ -1,0 +1,21 @@
+{
+  "name": "antelope-tokens",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "check:contracts": "tsx scripts/check-contracts.ts",
+    "sort": "tsx scripts/sort-tokens.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@wharfkit/antelope": "1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.2",
+    "ajv": "8.20.0",
+    "sharp": "0.35.3",
+    "tsx": "4.23.1",
+    "typescript": "5.9.3",
+    "vitest": " 4.1.10"
+  }
+}

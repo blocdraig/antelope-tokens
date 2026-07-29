@@ -1,0 +1,22 @@
+{
+  "chainIds": "chains.json",
+  "schema": "schema.json",
+  "chains": {
+    "eos": {
+      "tokens": "eos/tokens.json",
+      "logos": "eos/logos/"
+    },
+    "wax": {
+      "tokens": "wax/tokens.json",
+      "logos": "wax/logos/"
+    },
+    "telos": {
+      "tokens": "telos/tokens.json",
+      "logos": "telos/logos/"
+    },
+    "xpr": {
+      "tokens": "xpr/tokens.json",
+      "logos": "xpr/logos/"
+    }
+  }
+}
