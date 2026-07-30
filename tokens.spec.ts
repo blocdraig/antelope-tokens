@@ -205,6 +205,7 @@ test("schema validates social fields", () => {
       {
         symbol: "TEST",
         contract: "test.token",
+        name: "Test",
         social: {
           coinmarketcap: "example",
           coingecko: "example",
@@ -222,6 +223,7 @@ test("schema validates social fields", () => {
       {
         symbol: "TEST",
         contract: "test.token",
+        name: "Test",
         social: {
           discord: "discord.gg/abc123",
           youtube: "UCabcdefghijklmnopqrstuv",
@@ -235,6 +237,7 @@ test("schema validates social fields", () => {
       {
         symbol: "TEST",
         contract: "test.token",
+        name: "Test",
         social: {
           discord: "myserver",
         },
@@ -247,6 +250,7 @@ test("schema validates social fields", () => {
       {
         symbol: "TEST",
         contract: "test.token",
+        name: "Test",
         social: {
           twitter: "@brawlersgg",
         },
@@ -259,6 +263,7 @@ test("schema validates social fields", () => {
       {
         symbol: "TEST",
         contract: "test.token",
+        name: "Test",
         social: {
           youtube: "@BrawlersGG",
         },

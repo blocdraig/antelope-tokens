@@ -15,7 +15,7 @@ export type TokenSocial = {
 export type Token = {
   symbol: string;
   contract: string;
-  name?: string;
+  name: string;
   description?: string;
   website?: string;
   social?: TokenSocial;
@@ -40,7 +40,7 @@ export function logoFileName(contract: string, symbol: string) {
 }
 
 export function tokenSortKey(token: Token) {
-  return token.name ?? token.symbol;
+  return token.name;
 }
 
 function normalizeSocial(social?: TokenSocial) {
@@ -64,11 +64,8 @@ export function normalizeToken(token: Token) {
   const normalized: Token = {
     symbol: token.symbol,
     contract: token.contract,
+    name: token.name || token.symbol,
   };
-
-  if (token.name) {
-    normalized.name = token.name;
-  }
 
   if (token.description) {
     normalized.description = token.description;
