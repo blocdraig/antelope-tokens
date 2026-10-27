@@ -166,10 +166,18 @@ Logo requirements:
 
 ## Adding a token
 
-1. Add an entry to the correct `{chain}/tokens.json`
-2. Add the logo to `{chain}/logos/`
-3. Keep tokens sorted alphabetically by name, or by symbol when name is omitted
-4. Run the checks below
+Anyone with a GitHub account can contribute tokens through a pull request. You do not need collaborator access to this repository.
+
+1. Click **Fork** on [this repository](https://github.com/blocdraig/antelope-tokens) to create a copy in your own GitHub account
+2. Clone your fork and create a branch for your token addition
+3. Add an entry to the correct `{chain}/tokens.json`
+4. Add the matching PNG logo to `{chain}/logos/`, following the requirements above
+5. Run `npm ci`, then `npm run sort` to sort tokens alphabetically by name, or by symbol when name is omitted
+6. Run `npm test` to validate your changes
+7. Commit your changes and push the branch to your fork
+8. Open a pull request from your branch to `blocdraig/antelope-tokens`, targeting `main`. Include the chain, token contract, symbol, and a link to the token's official website or block explorer page
+
+Checks on pull requests from external contributors may wait for maintainer approval before running.
 
 ## Scripts
 
